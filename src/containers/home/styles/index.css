@@ -1,0 +1,127 @@
+.playlist {
+    display: inline-block;
+    width: 100%;
+}
+
+.list, .empty {
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+}
+.row-content {
+    border-bottom: 1px solid gainsboro;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.list .row-content .profile-pic {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.list .cover-pic {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+
+.list .trackImg {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.track-id {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list .row-content .left-content .profileImg .profile-pic {
+    margin-right: 10px;
+}
+
+.profileImg {
+    vertical-align: super;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list .row-content .left-content, .list .row-content .profileImg, .list .row-content .trackImg, .list .row-content .trackDetails {
+    display : inline-block;
+}
+
+span.artist{
+    color: #8f8f8f;
+}
+
+small.adderName{
+    color: #74a7d2;
+}
+
+.right-content{
+    float: right;
+}
+
+.borderPriority{
+    border-bottom: 3px solid darkseagreen;
+}
+
+.priority {
+    height: 5px;
+    background-color: #75d286;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.playlist .empty img{
+    width: 100%;
+}
+
+.clickToLoad {
+    width: 100%;
+    display: inline-flex;
+}
+
+.clickToLoad button {
+    margin: 0 auto;
+    padding: 10px;
+    background: #7fffd4;
+    text-transform: uppercase;
+}
+.isPriority {
+    text-align: center;
+    padding: 12px;
+    border-radius: 60%;
+    color: white;
+    background-color: #343434;
+    display: inline-block;
+    cursor: pointer;
+}
+.isPriority.selected{
+    background-color: #75d286;
+}
+
+.vote {
+    padding: 12px;
+    color: white;
+    background-color: #343434;
+    border-radius: 20px 20px 20px;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.vote.selected{
+    background-color: #d26767;
+}
+
+span.count{
+    padding: 10px;
+}
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
